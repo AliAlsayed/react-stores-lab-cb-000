@@ -16,7 +16,7 @@ class Store {
   }
 
   addListener (listener){
-    //this.listeners.push(listener)
+    this.listeners.push(listener)
   }
 }
 
